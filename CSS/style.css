@@ -6,7 +6,6 @@ body{
 h1 {
     font-family: 'Indie Flower', cursive;
 }
-
 @media screen and (max-width:640px){
     header{
         display: flex;
@@ -54,6 +53,51 @@ h1 {
 
 
     }
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4682B4;
+}
+
+.shop-item > span{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-item > img{
+    display:flex;
+    justify-content: flex-start;
+    
+
+}
+.cart{
+    background-color: #D1B2EA;
+}
+.section-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-row > span{
+    margin-right: 143px;
+
+}
+footer{
+    background-color: #4682B4;
+    height: 50px;
+}
+
+
 
 
 
