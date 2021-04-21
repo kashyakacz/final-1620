@@ -6,15 +6,32 @@ const albums = [
     { name: "Album 4", price: 19.99, inCart: false }
   ];
 
- 
+/*Function to update cart once img clocked on */
 function cart(albums){
     for(const alb of albums){
         if(alb.name === document.getElementById("Album 1")){
             document.getElementsByClassName("cart-row")[0].textContent = alb 
+            alb.incart = true
+        }
+        if(alb.name === document.getElementById("Album 2")){
+            document.getElementsByClassName("cart-row")[0].textContent = alb 
+            alb.incart = true
+        }
+        if(alb.name === document.getElementById("Album 3")){
+            document.getElementsByClassName("cart-row")[0].textContent = alb
+            alb.incart = true 
+        }
+        if(alb.name === document.getElementById("Album 4")){
+            document.getElementsByClassName("cart-row")[0].textContent = alb 
+            alb.incart = true
         }
 
         
     }
+
+}
+
+function status{
 
 }
 
