@@ -30,11 +30,11 @@ function cart(albums){
     }
 
 }
-
+/*Fuction to check if album is already in cartS */
 function status(albums){
     for(const alb in albums){
         if(alb.inCart === true){
-            alert("ALready in cart")
+            alert("Already in cart")
         }
     }
 
