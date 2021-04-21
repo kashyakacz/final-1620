@@ -31,7 +31,12 @@ function cart(albums){
 
 }
 
-function status{
+function status(albums){
+    for(const alb in albums){
+        if(alb.inCart === true){
+            alert("ALready in cart")
+        }
+    }
 
 }
 
